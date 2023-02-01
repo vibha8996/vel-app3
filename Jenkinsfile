@@ -6,11 +6,13 @@ pipeline{
 				}
 			}
 			
-			stages ('creat-file-1'){
+	stages{
+			stage ('creat-file-1'){
 									steps{
 											sh "touch file-1"
 										}
 									}
 }
-
 }
+
+
